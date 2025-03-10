@@ -221,6 +221,15 @@ useEffect(() => {
 }, []);
 ```
 
-## Conclusión
+## Conclusión y Mejores Prácticas
 
 La combinación de métodos asíncronos con `useEffect` es fundamental en el desarrollo moderno con React. Permite crear aplicaciones responsivas que pueden manejar operaciones complejas sin bloquear la interfaz de usuario, proporcionando una mejor experiencia al usuario final.
+
+## Documentación Adicional
+
+Para profundizar más en estos temas, puedes consultar los siguientes recursos:
+
+1. [Ejercicios de Tailwind y ejemplos prácticos](https://v0.dev/chat/tailwind-exercises-IjH65PChkau?b=b_Ize2Pv3bdCs)
+2. [Métodos Asíncronos en JavaScript - Guía Detallada](https://v0.dev/chat/javascript-async-methods-lztDoU1vhTv)
+
+Estos recursos te ayudarán a comprender mejor los conceptos presentados en este tutorial y a ver ejemplos prácticos adicionales.
