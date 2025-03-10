@@ -200,4 +200,10 @@ curl -X POST http://localhost:3000/api/usuarios/1/comentarios \
 ### 3. Obtener Usuario con sus Comentarios
 ```bash
 curl http://localhost:3000/api/usuarios/1/comentarios
-``` 
+```
+
+## Enlaces para Práctica Adicional
+
+### Práctica de SQL
+- [SQLZoo - Tutorial Interactivo de SQL](https://www.sqlzoo.net/wiki/SQL_Tutorial) - Excelente recurso para practicar consultas SELECT y otros conceptos de SQL de forma interactiva.
+- [SQLBolt](https://sqlbolt.com/) - Tutorial interactivo paso a paso con ejercicios prácticos para aprender SQL desde cero hasta nivel avanzado. 
