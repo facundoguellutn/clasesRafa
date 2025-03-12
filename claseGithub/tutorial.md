@@ -158,9 +158,10 @@ git pull origin <nombre-rama>
    - Incluir contexto necesario
    - Solicitar revisiones apropiadas
 
-## Recursos adicionales
+## Recursos Adicionales
 
 - [Documentación oficial de Git](https://git-scm.com/doc)
-- [Guías de GitHub](https://guides.github.com/)
-- [GitHub Learning Lab](https://lab.github.com/)
-- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) 
+- [Documentación oficial de GitHub](https://docs.github.com/es)
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Tutorial Interactivo de Git](https://learngitbranching.js.org/)
+- [Tutorial Completo de Git para Principiantes](https://v0.dev/chat/git-tutorial-para-amigos-8vlirRVCRf6?b=b_rOe0cAhuRSq) - Una guía detallada y amigable para aprender Git desde cero, con ejemplos prácticos y ejercicios. 

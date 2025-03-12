@@ -230,3 +230,11 @@ El **diseño de interfaz de usuario** se enfoca en el aspecto visual y la intera
 
 ¡Comparte este manual con tu amigo y anímenlo a crear interfaces hermosas y funcionales! ✨
 
+# UX/UI en Next.js
+
+## Documentación Adicional
+
+Para profundizar en el desarrollo de interfaces de usuario con Next.js, puedes consultar:
+
+[Proyecto Completo de UX/UI con Next.js](https://v0.dev/chat/next-js-ux-ui-project-qJ4pfAY3Gy0?b=b_25jUjltQ9Mp) - Un proyecto completo que muestra las mejores prácticas de diseño y desarrollo de interfaces de usuario utilizando Next.js.
+
