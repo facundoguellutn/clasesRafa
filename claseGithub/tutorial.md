@@ -158,10 +158,53 @@ git pull origin <nombre-rama>
    - Incluir contexto necesario
    - Solicitar revisiones apropiadas
 
+## Gestión de Historial y Restauración
+
+### Listar todos los cambios hechos
+Para ver una lista de todos los cambios hechos en el repositorio, usa:
+```bash
+git log --oneline --decorate --graph --all
+```
+
+Si solo quieres ver los cambios recientes de una manera más simple:
+```bash
+git log --pretty=oneline
+```
+
+### Ver todos los commits
+Para ver todos los commits en el historial del repositorio:
+```bash
+git log
+```
+
+Si deseas ver un historial más corto y en una sola línea por commit:
+```bash
+git log --oneline
+```
+
+### Restaurar a un commit específico
+Si necesitas volver a un commit anterior, puedes usar:
+```bash
+git checkout <id-del-commit>
+```
+
+Para deshacer los cambios y volver a un estado anterior de manera permanente:
+```bash
+git reset --hard <id-del-commit>
+```
+
+Si solo quieres deshacer los cambios sin perder el historial:
+```bash
+git revert <id-del-commit>
+```
+
+Ten en cuenta que `git reset --hard` eliminará cualquier cambio no confirmado, así que úsalo con precaución.
+
 ## Recursos Adicionales
 
 - [Documentación oficial de Git](https://git-scm.com/doc)
 - [Documentación oficial de GitHub](https://docs.github.com/es)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Tutorial Interactivo de Git](https://learngitbranching.js.org/)
-- [Tutorial Completo de Git para Principiantes](https://v0.dev/chat/git-tutorial-para-amigos-8vlirRVCRf6?b=b_rOe0cAhuRSq) - Una guía detallada y amigable para aprender Git desde cero, con ejemplos prácticos y ejercicios. 
+- [Tutorial Completo de Git para Principiantes](https://v0.dev/chat/git-tutorial-para-amigos-8vlirRVCRf6?b=b_rOe0cAhuRSq) - Una guía detallada y amigable para aprender Git desde cero, con ejemplos prácticos y ejercicios.
+
