@@ -50,7 +50,7 @@ Agregar en `package.json` para usar nodemon:
 
 ---
 
-### 2. Estructura de carpetas
+### 2. Estructura de las carpetas
 
 ```
 books-authors-api/
