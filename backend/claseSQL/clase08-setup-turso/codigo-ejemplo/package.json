@@ -1,0 +1,32 @@
+{
+  "name": "turso-biblioteca-ejemplo",
+  "version": "1.0.0",
+  "description": "Ejemplo de conexión a Turso con proyecto biblioteca",
+  "main": "index.js",
+  "scripts": {
+    "start": "node examples/crud-operations.js",
+    "test": "node scripts/test-connection.js",
+    "setup": "node scripts/create-tables.js && node scripts/seed-data.js",
+    "diagnostics": "node scripts/diagnostics.js",
+    "quick-start": "node scripts/quick-start.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.4.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "turso",
+    "sqlite",
+    "database",
+    "biblioteca",
+    "sql"
+  ],
+  "author": "Rafa - Estudiante SQL",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
